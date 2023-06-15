@@ -46,12 +46,17 @@ const CountdownTimer = () => {
 
   const estilo = {
     fontSize: '50px',
-    margin:'50px'
+    margin:'25px'
   };
 
   const pastel = {
-    fontSize: '50px',
-    margin: '40px'
+    fontSize: '40px',
+    margin: '25px'
+  }
+
+  const titulo = {
+    lineHeight: '1.5em',
+    fontSize: '20px'
   }
 
   return (
@@ -60,7 +65,7 @@ const CountdownTimer = () => {
         <BirthdayPage />
       ) : (
         <>
-          <h1>🎉🎈 A horas para tu cumple 🎈🎉</h1>
+          <h1 style={titulo}>🎉🎈 A horas para tu cumple 🎈🎉</h1>
           <h1 style={estilo}>{`${timeRemaining.hours}:${timeRemaining.minutes}:${timeRemaining.seconds}`}</h1>
           <h1 style={pastel}>🎂</h1>
         </>

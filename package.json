@@ -2,7 +2,7 @@
   "name": "hb-lupita",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MaxC26.github.io/lupita-react-js-hb/build",
+  "homepage": "https://maxc26.github.io/lupita-react-js-hb/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

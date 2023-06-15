@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lupita-react-js-hb/build/static/css/main.9d5101ea.css",
-    "main.js": "/lupita-react-js-hb/build/static/js/main.28079566.js",
+    "main.js": "/lupita-react-js-hb/build/static/js/main.c82cb275.js",
     "static/js/787.09d7468b.chunk.js": "/lupita-react-js-hb/build/static/js/787.09d7468b.chunk.js",
     "static/media/HBL.png": "/lupita-react-js-hb/build/static/media/HBL.39c53d391178cd34909a.png",
     "index.html": "/lupita-react-js-hb/build/index.html",
     "main.9d5101ea.css.map": "/lupita-react-js-hb/build/static/css/main.9d5101ea.css.map",
-    "main.28079566.js.map": "/lupita-react-js-hb/build/static/js/main.28079566.js.map",
+    "main.c82cb275.js.map": "/lupita-react-js-hb/build/static/js/main.c82cb275.js.map",
     "787.09d7468b.chunk.js.map": "/lupita-react-js-hb/build/static/js/787.09d7468b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5101ea.css",
-    "static/js/main.28079566.js"
+    "static/js/main.c82cb275.js"
   ]
 }
