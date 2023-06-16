@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import BirthdayPage from './BirthdayPage';
+import React, { useState, useEffect } from "react";
+import BirthdayPage from "./BirthdayPage";
 
 const CountdownTimer = () => {
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
@@ -24,7 +24,14 @@ const CountdownTimer = () => {
 
   function calculateTimeRemaining() {
     const now = new Date();
-    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
+    const midnight = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate() + 1,
+      0,
+      0,
+      0
+    );
     const timeDiff = midnight - now;
 
     const totalSeconds = Math.floor(timeDiff / 1000);
@@ -36,7 +43,7 @@ const CountdownTimer = () => {
       total: totalSeconds,
       hours: formatTime(hours),
       minutes: formatTime(minutes),
-      seconds: formatTime(seconds)
+      seconds: formatTime(seconds),
     };
   }
 
@@ -45,31 +52,23 @@ const CountdownTimer = () => {
   }
 
   const estilo = {
-    fontSize: '50px',
-    margin:'25px'
+    fontSize: "50px",
+    margin: "25px",
   };
 
   const pastel = {
-    fontSize: '40px',
-    margin: '40px'
-  }
+    fontSize: "40px",
+    margin: "40px",
+  };
 
   const titulo = {
-    lineHeight: '1.5em',
-    fontSize: '20px'
-  }
+    lineHeight: "1.5em",
+    fontSize: "20px",
+  };
 
   return (
     <div>
-      {countdownFinished ? (
-        <BirthdayPage />
-      ) : (
-        <>
-          <h1 style={titulo}>🎉🎈 A horas para tu cumple 🎈🎉</h1>
-          <h1 style={estilo}>{`${timeRemaining.hours}:${timeRemaining.minutes}:${timeRemaining.seconds}`}</h1>
-          <h1 style={pastel}>🎂</h1>
-        </>
-      )}
+      <BirthdayPage />
     </div>
   );
 };

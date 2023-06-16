@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lupita-react-js-hb/build/static/css/main.9d5101ea.css",
-    "main.js": "/lupita-react-js-hb/build/static/js/main.feda766b.js",
+    "main.js": "/lupita-react-js-hb/build/static/js/main.3b321020.js",
     "static/js/787.09d7468b.chunk.js": "/lupita-react-js-hb/build/static/js/787.09d7468b.chunk.js",
     "static/media/feliz-cumple-lupita.mp3": "/lupita-react-js-hb/build/static/media/feliz-cumple-lupita.1b0eaef210814352cf28.mp3",
     "static/media/HBL.png": "/lupita-react-js-hb/build/static/media/HBL.39c53d391178cd34909a.png",
     "index.html": "/lupita-react-js-hb/build/index.html",
     "main.9d5101ea.css.map": "/lupita-react-js-hb/build/static/css/main.9d5101ea.css.map",
-    "main.feda766b.js.map": "/lupita-react-js-hb/build/static/js/main.feda766b.js.map",
+    "main.3b321020.js.map": "/lupita-react-js-hb/build/static/js/main.3b321020.js.map",
     "787.09d7468b.chunk.js.map": "/lupita-react-js-hb/build/static/js/787.09d7468b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5101ea.css",
-    "static/js/main.feda766b.js"
+    "static/js/main.3b321020.js"
   ]
 }
