@@ -31,9 +31,9 @@ const BirthdayPage = () => {
   };
   return (
     <div style={titulo}>
-      {/* <h2>Feliz Cumpleaños Lupita</h2> */}
+      <h2>Feliz Cumpleaños Lupita</h2>
       <SongPlayer />
-      {/* <div>
+      <div>
         <p style={parrafos}>
           ¡Muchisimas felicidades! 🎉🎂 Que este día sea tan especial y que te
           la pases de maravilla sobre todo, espero que lo disfrutes muchisimo.
@@ -64,7 +64,7 @@ const BirthdayPage = () => {
           height={window.innerHeight + 100}
           style={confeti}
         />
-      )} */}
+      )}
     </div>
   );
 };
